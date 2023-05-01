@@ -7,4 +7,4 @@ Note: This notebook is under active development.
 Requires the package predicting-quantum-properties from https://github.com/hsinyuan-huang/predicting-quantum-properties
 
 # Acknowledgement
-This work benefited greatly from discussions with Profs. Hsi-Sheng Goan (National Taiwan University), Hao-Chung Cheng (National Taiwan University), Jyh-Pin Chou (National Changhua University of Education), and Hsin Yuan (Robert) Huang (California Institute of Technology). All remaining deficiencies are my own.
+This work benefited greatly from discussions with Prof. Hsi-Sheng Goan (National Taiwan University), Prof. Hao-Chung Cheng (National Taiwan University), Prof. Jyh-Pin Chou (National Changhua University of Education), and Hsin Yuan (Robert) Huang (California Institute of Technology). All remaining deficiencies are my own.
