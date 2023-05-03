@@ -1,5 +1,5 @@
 # Estimating ground state energy with classical shadows
-Reconstruction of experimental results in [1].
+This notebook implements the ideas of [1] and attempts to reconstruct the experimental results therein.
 
 # Status
 This notebook is now complete and undergoing testing. 
