@@ -7,6 +7,11 @@ This notebook is now complete and undergoing testing.
 # How to use
 Requires the package predicting-quantum-properties from https://github.com/hsinyuan-huang/predicting-quantum-properties
 
+There are three files:
+1. Electronic_structure_problem_vqe_randomized_classical_shadow.ipynb: VQE using vanilla classical shadow.
+2. Electronic_structure_problem_vqe_derandomized_classical_shadow.ipynb: VQE using classical shadow with derandomized Hamiltonian.
+3. Electronic_structure_problem_vqe_derand_classical_shadow_optimized.ipynb: As above but with time optimization. The calculation takes significantly less time than the non-optimised version (2).
+
 # Acknowledgements
 This notebook is based on the theory described in [1].
 
