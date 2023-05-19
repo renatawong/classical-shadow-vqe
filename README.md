@@ -1,19 +1,22 @@
-# Estimating ground state energy with classical shadows
-This notebook implements the ideas of [1] and attempts to reconstruct the experimental results therein.
+# Electronic structure problem (estimating ground state energy) with VQE and classical shadows
+This notebooks implement the ideas of [1] and attempt to reconstruct the experimental results therein.
 
 # Status
-This notebook is now complete and undergoing testing. 
+The notebooks are complete and undergoing testing. 
 
 # How to use
 Requires the package predicting-quantum-properties from https://github.com/hsinyuan-huang/predicting-quantum-properties
 
-There are three files:
-1. [Electronic_structure_problem_vqe_randomized_classical_shadow.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/0c931801968c97d76ba769f921bdd6f396697823/Electronic_structure_problem_vqe_randomized_classical_shadow.ipynb) : VQE using vanilla classical shadow.
-2. [Electronic_structure_problem_vqe_derandomized_classical_shadow.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/0c931801968c97d76ba769f921bdd6f396697823/Electronic_structure_problem_vqe_derandomized_classical_shadow.ipynb) : VQE using classical shadow with derandomized Hamiltonian.
-3. [Electronic_structure_problem_vqe_derand_classical_shadow_optimized.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/e1fe074caf84d559fa279fb909f3c070ca9fe1be/Electronic_structure_problem_vqe_derand_classical_shadow_optimized.ipynb) : As above but with time optimization. The calculation takes significantly less time than the non-optimised version (2).
+There are four files:
+1. [esp_rcs.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/0c931801968c97d76ba769f921bdd6f396697823/esp_rcs.ipynb) : VQE using vanilla classical shadow.
+2. [esp_rcs_optimized.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/f2902e2bb24a0c20e1144054e5a04d211a881613/esp_rcs_optimized.ipynb) : As above but with optimization. 
+3. [esp_dcs.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/0c931801968c97d76ba769f921bdd6f396697823/esp_dcs.ipynb) : VQE using classical shadow with derandomized Hamiltonian.
+4. [esp_dcs_optimized.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/e1fe074caf84d559fa279fb909f3c070ca9fe1be/esp_dcs_optimized.ipynb) : As above but with time optimization. 
+
+Calculations using the optimized versions take significantly less time than with the non-optimised versions.
 
 # Acknowledgements
-This notebook is based on the theory described in [1].
+The notebooks are based on the theory described in [1].
 
 The code was written by Renata Wong (https://orcid.org/0000-0001-5468-0716).
 
