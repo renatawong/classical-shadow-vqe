@@ -20,7 +20,7 @@ The notebooks are based on the theory described in [1].
 
 The code was written by Renata Wong (https://orcid.org/0000-0001-5468-0716).
 
-This work benefited greatly from discussions with Prof. Hsi-Sheng Goan (National Taiwan University), Prof. Hao-Chung Cheng (National Taiwan University), Prof. Jyh-Pin Chou (National Changhua University of Education), and Hsin Yuan (Robert) Huang (California Institute of Technology). All remaining deficiencies are my own.
+This work benefited greatly from discussions with Prof. Hsi-Sheng Goan (National Taiwan University), Prof. Hao-Chung Cheng (National Taiwan University), Prof. Jyh-Pin Chou (National Changhua University of Education), Michał Stęchły (PsiQuantum), and Hsin Yuan (Robert) Huang (California Institute of Technology). All remaining deficiencies are my own.
 
 # References
 [1] Hsin-Yuan Huang, Richard Kueng, and John Preskill, Efficient estimation of Pauli observables by derandomization, https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.030503
