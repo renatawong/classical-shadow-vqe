@@ -26,6 +26,7 @@ This work benefited greatly from discussions with Prof. Hsi-Sheng Goan (National
 
 # References
 [1] Hsin-Yuan Huang, Richard Kueng, and John Preskill, Efficient estimation of Pauli observables by derandomization, https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.030503
+
 [2] Hsin-Yuan Huang, Predicting quantum properties, https://github.com/hsinyuan-huang/predicting-quantum-properties
 
 License
