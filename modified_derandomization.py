@@ -1,3 +1,10 @@
+'''
+This is a modification of the original code file titled 'data_acquisition_shadow.py' from the repository 
+'https://github.com/hsinyuan-huang/predicting-quantum-properties' by Hsin-Yuan Huang. 
+
+Modifications were carried out by Renata Wong.
+'''
+
 import math
 
 
@@ -7,7 +14,7 @@ def modified_derandomized_classical_shadow(all_observables, num_operators, syste
     #
     #     all_observables: a list of Pauli observables, each Pauli observable is a list of tuple
     #                      of the form ("X", position) or ("Y", position) or ("Z", position)
-    #     num_of_measurements_per_observable: int for the number of measurement for each observable
+    #     num_operators: int for the total number of measurements 
     #     system_size: int for how many qubits in the quantum system
     #     weight: None or a list of coefficients for each observable
     #             None -- neglect this parameter
@@ -30,7 +37,7 @@ def modified_derandomized_classical_shadow(all_observables, num_operators, syste
         cost = 0
         for i, zipitem in enumerate(zip(num_of_measurements_so_far, num_of_matches_needed_in_this_round)):
             measurement_so_far, matches_needed = zipitem
-            if num_of_measurements_so_far[i] >= math.floor(weight[i] * num_operators): # not sure here!!
+            if num_of_measurements_so_far[i] >= math.floor(weight[i]):# * num_operators): # not sure here!!
                 continue
 
             if system_size < matches_needed:
@@ -111,7 +118,7 @@ def modified_derandomized_classical_shadow(all_observables, num_operators, syste
 
         success = 0
         for i, single_observable in enumerate(all_observables):
-            if num_of_measurements_so_far[i] >= math.floor(weight[i] * num_operators): # not sure here!!
+            if num_of_measurements_so_far[i] >= math.floor(weight[i]): # * num_operators): # not sure here!!
                 success += 1
 
         if success == len(all_observables):
