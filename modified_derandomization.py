@@ -37,7 +37,7 @@ def modified_derandomized_classical_shadow(all_observables, num_operators, syste
         cost = 0
         for i, zipitem in enumerate(zip(num_of_measurements_so_far, num_of_matches_needed_in_this_round)):
             measurement_so_far, matches_needed = zipitem
-            if num_of_measurements_so_far[i] >= math.floor(weight[i]):# * num_operators): 
+            if num_of_measurements_so_far[i] >= math.floor(weight[i] * num_operators):  # changed
                 continue
 
             if system_size < matches_needed:
@@ -81,6 +81,7 @@ def modified_derandomized_classical_shadow(all_observables, num_operators, syste
             for dice_roll_pauli in ["X", "Y", "Z"]:
                 # Assume the dice rollout to be "dice_roll_pauli"
                 for i, single_observable in enumerate(all_observables):
+                   
                     result = match_up(qubit_i, dice_roll_pauli, single_observable)
                     if result == -1:
                         num_of_matches_needed_in_this_round[i] += 100 * (system_size+10) # impossible to measure
@@ -118,10 +119,10 @@ def modified_derandomized_classical_shadow(all_observables, num_operators, syste
 
         success = 0
         for i, single_observable in enumerate(all_observables):
-            if num_of_measurements_so_far[i] >= math.floor(weight[i]): # * num_operators):
+            if num_of_measurements_so_far[i] >= math.floor(weight[i] * num_operators):   # changed
                 success += 1
 
-        if success == len(all_observables):
+        if success == len(all_observables) and len(measurement_procedure) == num_operators:   # added second condition
             break
 
     return measurement_procedure
