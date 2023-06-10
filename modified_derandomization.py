@@ -37,7 +37,7 @@ def modified_derandomized_classical_shadow(all_observables, num_operators, syste
         cost = 0
         for i, zipitem in enumerate(zip(num_of_measurements_so_far, num_of_matches_needed_in_this_round)):
             measurement_so_far, matches_needed = zipitem
-            if num_of_measurements_so_far[i] >= math.floor(weight[i] * num_operators):  # changed
+            if num_of_measurements_so_far[i] >= math.floor(weight[i] * num_operators / len(all_observables)):  # changed
                 continue
 
             if system_size < matches_needed:
@@ -119,7 +119,7 @@ def modified_derandomized_classical_shadow(all_observables, num_operators, syste
 
         success = 0
         for i, single_observable in enumerate(all_observables):
-            if num_of_measurements_so_far[i] >= math.floor(weight[i] * num_operators):   # changed
+            if num_of_measurements_so_far[i] >= math.floor(weight[i] * num_operators / len(all_observables)):   # changed
                 success += 1
 
         if success == len(all_observables) and len(measurement_procedure) == num_operators:   # added second condition
