@@ -20,7 +20,7 @@ File [modified_derandomization.py](https://github.com/renatawong/classical-shado
 # Acknowledgements
 The notebooks are based on the theory described in [1].
 
-The code was written by Renata Wong (https://orcid.org/0000-0001-5468-0716).
+The code was written by Renata Wong (https://renatawong.github.io/).
 
 This work benefited greatly from discussions with Prof. Hsi-Sheng Goan (National Taiwan University), Prof. Hao-Chung Cheng (National Taiwan University), Prof. Jyh-Pin Chou (National Changhua University of Education), [Michał Stęchły](https://www.mustythoughts.com/about.html) (PsiQuantum), and Hsin Yuan (Robert) Huang (California Institute of Technology). All remaining deficiencies are my own.
 
