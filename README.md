@@ -9,7 +9,7 @@ Requires the package predicting-quantum-properties from https://github.com/hsiny
 
 There are four files that calculate the electronic structure problem:
 1. [esp_rcs_vqe_qiskit.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/0c931801968c97d76ba769f921bdd6f396697823/esp_rcs_vqe_qiskit.ipynb) : Electronic structure problem using VQE with the vanilla classical shadow (i.e. randomised basis change).
-2. [esp_rcs_optimized.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/f2902e2bb24a0c20e1144054e5a04d211a881613/esp_rcs_optimized.ipynb) : As above but with optimization. 
+2. [esp_rcs_vqe_qiskit_optimized.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/f2902e2bb24a0c20e1144054e5a04d211a881613/esp_rcs_vqe_qiskit_optimized.ipynb) : As above but with optimization. 
 3. [esp_dcs.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/0c931801968c97d76ba769f921bdd6f396697823/esp_dcs.ipynb) : Electronic structure problem using VQE with ``derandomised'' classical shadow (i.e. derandomised Hamiltonian used for basis change).
 4. [esp_dcs_optimized.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/e1fe074caf84d559fa279fb909f3c070ca9fe1be/esp_dcs_optimized.ipynb) : As above but with time optimization. 
 
