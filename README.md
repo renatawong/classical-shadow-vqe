@@ -11,10 +11,11 @@ There are five files that calculate the electronic structure problem:
 1. [electronic_structure_problem_dcs.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/c2403b4b3940f6846cfceeae7e2d1f6102d3b0a9/electronic_structure_problem_dcs.ipynb) : Electronic structure problem with shadow (derandomized) applied on the optimal set of angles only. This is the original idea in [1].
 
 The below files on the other hand apply classical shadow in each cost function evaluation of VQE:
-2. [vqe_rcs_qiskit.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/8e5f0060ceb3f4036c2b4508e1d02d168edae2f5/vqe_rcs_qiskit.ipynb) : Electronic structure problem using VQE with the vanilla classical shadow (i.e. randomised basis change).
-3. [vqe_rcs_qiskit_optimized.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/16f33d1e10e0a91bdf09008d1daa390b7f95fd6a/vqe_rcs_qiskit_optimized.ipynb): As above but with optimization. 
-4. [vqe_dcs_qiskit.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/403e615a20d58d6313b0bc858a3719b1793892a2/vqe_dcs_qiskit.ipynb) : Electronic structure problem using VQE with ``derandomised'' classical shadow (i.e. derandomised Hamiltonian used for basis change).
-5. [vqe_dcs_qiskit_optimized.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/382d30f9ac8d1d8e2d1d6365aa4747cd57b2efae/vqe_dcs_qiskit_optimized.ipynb) : As above but with time optimization. 
+
+1. [vqe_rcs_qiskit.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/8e5f0060ceb3f4036c2b4508e1d02d168edae2f5/vqe_rcs_qiskit.ipynb) : Electronic structure problem using VQE with the vanilla classical shadow (i.e. randomised basis change).
+2. [vqe_rcs_qiskit_optimized.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/16f33d1e10e0a91bdf09008d1daa390b7f95fd6a/vqe_rcs_qiskit_optimized.ipynb): As above but with optimization. 
+3. [vqe_dcs_qiskit.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/403e615a20d58d6313b0bc858a3719b1793892a2/vqe_dcs_qiskit.ipynb) : Electronic structure problem using VQE with ``derandomised'' classical shadow (i.e. derandomised Hamiltonian used for basis change).
+4. [vqe_dcs_qiskit_optimized.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/382d30f9ac8d1d8e2d1d6365aa4747cd57b2efae/vqe_dcs_qiskit_optimized.ipynb) : As above but with time optimization. 
 
 Calculations using the optimized versions take significantly less time than with the non-optimised versions.
 
