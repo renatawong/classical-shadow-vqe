@@ -1,5 +1,5 @@
 # Electronic structure problem (estimating ground state energy) with VQE and classical shadows
-This notebooks implement the ideas of [1] and attempt to reconstruct the experimental results therein.
+The notebooks implement the idea in [1] (see the experiments therein) and extend the application of classical shadows to each iteration of VQE.
 
 # Status
 The notebooks are complete. 
