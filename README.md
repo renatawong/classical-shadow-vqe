@@ -2,7 +2,7 @@
 This notebooks implement the ideas of [1] and attempt to reconstruct the experimental results therein.
 
 # Status
-The notebooks are undergoing testing and debugging. 
+The notebooks are complete. 
 
 # How to use
 Requires the package predicting-quantum-properties from https://github.com/hsinyuan-huang/predicting-quantum-properties
