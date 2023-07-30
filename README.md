@@ -4,7 +4,7 @@ The notebooks implement the idea in [1] (see the experiments therein) and extend
 # Status
 The notebooks are complete. 
 
-# How to use
+# How to use the notebooks
 Requires the package predicting-quantum-properties from https://github.com/hsinyuan-huang/predicting-quantum-properties
 
 There are five files that calculate the electronic structure problem:
