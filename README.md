@@ -7,8 +7,9 @@ The notebooks are complete.
 # How to use the notebooks
 Requires the package predicting-quantum-properties from https://github.com/hsinyuan-huang/predicting-quantum-properties
 
-There are five files that calculate the electronic structure problem:
+There are a total of six files that calculate the electronic structure problem:
 1. [electronic_structure_problem_dcs.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/c2403b4b3940f6846cfceeae7e2d1f6102d3b0a9/electronic_structure_problem_dcs.ipynb) : Electronic structure problem with shadow (derandomized) applied on the optimal set of angles only. This is the original idea in [1].
+2. [electronic_structure_problem_rcs.ipynb](https://github.com/renatawong/classical-shadow-vqe/blob/e3f261bda8ffd35f4781cc3822fe094e64fc2e88/electronic_structure_problem_rcs.ipynb) : Electronic structure problem with shadow (randomized) applied on the optimal set of angles only.
 
 The below files on the other hand apply classical shadow in each cost function evaluation of VQE:
 
