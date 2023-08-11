@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Wong
+    given-names: Renata
+    orcid: https://orcid.org/0000-0001-5468-0716
+title: VQE with classical shadows
+version: v2.0.2
+#doi: 
+date-released: 2023-08-11
+url: "https://github.com/github/renatawong"
