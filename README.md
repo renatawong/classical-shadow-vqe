@@ -22,6 +22,8 @@ Calculations using the optimized versions take significantly less time than with
 
 File [modified_derandomization.py](https://github.com/renatawong/classical-shadow-vqe/blob/6d5051170bc193637e8f8251ce8d80f027d3ea14/modified_derandomization.py) contains a modified version of the file 'data_acquisition_shadow.py' in the package 'predicting-quantum-properties' [2]. This modification allows the user to specify the number of derandomised operators to be generated. In the original version [2], the user had to specify the number of evaluations per observable, which did not allow for control over the total number of generated operators. 
 
+The folder [experimental-results](https://github.com/renatawong/classical-shadow-vqe/tree/72ff46c435a449eeee5d2f38a93a7c19700495c5/experimental-results) contains the experimental results for the molecules $H_2$, $LiH$, $Beh_2$. 
+
 # Acknowledgements
 The notebooks are based on the theory described in [1].
 
